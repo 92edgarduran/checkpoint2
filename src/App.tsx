@@ -1,8 +1,12 @@
+import './App.css';
+
 function App() {
   return (
-    <>
-      <h1>Bienvenidos</h1>
-      <p>Texto adicional</p>
-    </>
-  )
+    <div className="App">
+      <h1>Bienvenido a mi ciudad 🏙️</h1>
+      <p>Explora noticias, restaurantes, descuentos y más.</p>
+    </div>
+  );
 }
+
+export default App;
