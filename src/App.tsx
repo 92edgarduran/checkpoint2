@@ -1,3 +1,8 @@
-<h1>Bienvenidos a mi ciudad digital 🏙️</h1>
-<p>Explora noticias, restaurantes, descuentos y más</p>
-
+function App() {
+  return (
+    <>
+      <h1>Bienvenidos</h1>
+      <p>Texto adicional</p>
+    </>
+  )
+}
