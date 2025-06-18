@@ -9,8 +9,8 @@ import Contacto from './pages/Contacto';
 
 function App() {
   return (
-    <>
-      <Router>
+    <Router>
+      <>
         <Navbar />
         <Routes>
           <Route path="/" element={<Inicio />} />
@@ -20,11 +20,12 @@ function App() {
           <Route path="/visitanos" element={<Visitanos />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
-      </Router>
-    </>
+      </>
+    </Router>
   );
 }
 
 export default App;
+
 
 
