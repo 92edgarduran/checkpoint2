@@ -9,19 +9,22 @@ import Contacto from './pages/Contacto';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/noticias" element={<Noticias />} />
-        <Route path="/donde-comer" element={<DondeComer />} />
-        <Route path="/eventos" element={<Eventos />} />
-        <Route path="/visitanos" element={<Visitanos />} />
-        <Route path="/contacto" element={<Contacto />} />
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/noticias" element={<Noticias />} />
+          <Route path="/donde-comer" element={<DondeComer />} />
+          <Route path="/eventos" element={<Eventos />} />
+          <Route path="/visitanos" element={<Visitanos />} />
+          <Route path="/contacto" element={<Contacto />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
 export default App;
+
 
